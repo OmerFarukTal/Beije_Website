@@ -24,10 +24,12 @@
                     <div class="text-section">
                         <h2>Kendi Paketini oluştur</h2>
                         <a class="how-it-works-link" href="https://beije.co/know-us/how-it-works">Nasıl Çalışır</a>
-                        <p>Tercih ve ihtiyaçların doğrultusunda seçeceğin ürünlerden ve miktarlardan, sana özel bir paket oluşturalım.</p>
+                        <p>Tercih ve ihtiyaçların doğrultusunda seçeceğin ürünlerden ve <br>
+                            miktarlardan sana özel bir paket oluşturalım.</p>
                     </div>
                     <div class="scroll-section">
                         <div class="buttons-section">
+                            
                             <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth Mui-selected mui-style-134ql1v" 
                                 tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0">
                                 beije Ped
@@ -45,14 +47,120 @@
                             </button>
                         </div>
                         <div class="slide-bar-section">
-                            <div class="slidecontainer">
-                                <input type="range" min="1" max="100" value="00" class="slider" id="myRange">
+                            <div class="beije-ped-slides-section">
+                                <p>Sıradan Ped</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="60" value="0" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>50</option>
+                                    </datalist>
+                                </div>
+                                <br>
+                                <p>Süper Ped</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="60" value="0" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>50</option>
+                                    </datalist>
+                                </div><br>
+                                <p>Süper+ Ped</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="60" value="0" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>50</option>
+                                    </datalist>
+                                </div>
                             </div>
-                            <div class="slidecontainer">
-                                <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                            <div class="beije-günlük-ped-slides-section" hidden>
+                                <p>Günlük Ped</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="100" value="0" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>60</option>
+                                    <option>70</option>
+                                    <option>80</option>
+                                    <option>90</option>
+                                    <option>100</option>
+                                    </datalist>
+                                </div>
+                                <br>
+                                <p>Süper Günlük Ped</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="100" value="0" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>60</option>
+                                    <option>70</option>
+                                    <option>80</option>
+                                    <option>90</option>
+                                    <option>100</option>
+                                    </datalist>
+                                </div>
                             </div>
-                            <div class="slidecontainer">
-                                <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                            <div class="beije-tampon-slides-section" hidden>
+                                <p>Mini Tampon</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="60" value="00" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>50</option>
+                                    </datalist>
+                                </div>
+                                <br>
+                                <p>Standart Tampon</p>
+                                <div class="slider">
+                                    <input type="range" min="0" max="60" value="00" id="fader" 
+                                    step="10" list="volsettings">
+                                    <datalist id="volsettings">
+                                    <option>0</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                    <option>40</option>
+                                    <option>50</option>
+                                    <option>50</option>
+                                    </datalist>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,8 +168,9 @@
                 <div class="photo-and-total-cost-section">
                     <h2>Özel Paketin</h2>
                     <p>2 ayda 1 gönderim</p>
-                    <img alt="Ped photo" src="">
-                    <input type="submit">
+                    <img class="main-photo" alt="Ped photo" src="https://beije.co/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpacket.c4ec1969.png&w=640&q=75">
+                    <br>
+                    <input class="purchase-button" type="submit">
                 </div>
             </div>
         </div>
@@ -72,29 +181,35 @@
                     <p>Arayı açmayalım!</p>
                     <p>Aylık e-gazetemiz döngü, yeni ürün ve gelişmelerden haberdar ol.</p>
                     <form class="" action="mailto:omerftal@gmail.com" method="post" enctype="text/plain">
-                        <input type="email">
-                        <input type="submit">
+                        <input class= "email-place" type="email" placeholder="Your email...">
+                        <input class="submit-button" type="submit">
                     </form>
-                    <p>Abone olarak, beije KVKK ve Gizlilik Politikası'nı kabul ediyor ve beije'den haber almayı onaylıyorum.</p>
+                    <p>Abone olarak, beije KVKK ve Gizlilik Politikası'nı kabul ediyor ve beije'den haber almayı<br>
+                        onaylıyorum.</p>
                 </div>
                 <div class="footer-in-bottom">
-                    <a class="nav-bottom" href="">Paketler</a>
-                    <a class="nav-bottom" href="https://www.dongu.beije.co/">Deneme Paketi</a>
-                    <a class="nav-bottom" href="https://beije.co/custom-packet">Ekibimize Katıl</a>
-                    <a class="nav-bottom" href="">Blog</a>
-                    <a class="nav-bottom" href="https://www.dongu.beije.co/">Sıkça Sorulan Sorular</a>
-                    <a class="nav-bottom" href="https://beije.co/custom-packet">Biz Kimiz?</a>
+                    <a class="nav-bottom" href="https://beije.co/packets">Paketler</a> 
+                    <a class="nav-bottom" href="https://beije.co/product/trial">Deneme Paketi</a> 
+                    <a class="nav-bottom" href="https://www.linkedin.com/company/beije-tr/">Ekibimize Katıl</a> 
+                    <a class="nav-bottom" href="https://www.dongu.beije.co/">Blog</a>
+                    <a class="nav-bottom" href="https://beije.co/know-us/faqs">Sıkça Sorulan Sorular</a>
+                    <a class="nav-bottom" href="https://beije.co/know-us/why-beije">Biz Kimiz?</a>
                 </div>
                 <div class="social-media-accounts">
-                    <a class="nav-bottom" href="">Facebook</a>
-                    <a class="nav-bottom" href="https://www.dongu.beije.co/">Instagram</a>
-                    <a class="nav-bottom" href="https://beije.co/custom-packet">Twitter</a>
-                    <a class="nav-bottom" href="">Linkedin</a>
-                    <a class="nav-bottom" href="https://www.dongu.beije.co/">Spotify</a>
+                    <a class="nav-bottom" href="https://www.facebook.com/beijewomen/">Facebook</a>
+                    <a class="nav-bottom" href="https://www.instagram.com/beijewomen/">Instagram</a>
+                    <a class="nav-bottom" href="https://twitter.com/beijewomen">Twitter</a>
+                    <a class="nav-bottom" href="https://tr.linkedin.com/company/beije-tr">Linkedin</a>
+                    <a class="nav-bottom" href="https://open.spotify.com/user/ma20bga4ewhwt96kx1p92f2uv">Spotify</a>
                 </div>
                 <hr>
                 <div class="legal-stuff">
-                    <p> HAklar cart curt</p>
+                    <p> 2023 beije. Tüm hakları saklıdır.(Kopya)</p>
+                    <a class="rights" href="https://www.facebook.com/beijewomen/">Facebook</a>
+                    <a class="rights" href="https://www.instagram.com/beijewomen/">Instagram</a>
+                    <a class="rights" href="https://twitter.com/beijewomen">Twitter</a>
+                    <a class="rights" href="https://tr.linkedin.com/company/beije-tr">Linkedin</a>
+                    <a class="rights" href="https://open.spotify.com/user/ma20bga4ewhwt96kx1p92f2uv">Spotify</a>
                 </div>
             </div>
         </footer>

@@ -11,8 +11,21 @@ header {
     top: 0;
     z-index: 999;
     text-align: center;
-    padding: 25px 30% 50px 30%;
+    padding: 25px 10% 50px 10%;
     background-color: #FAEDCD;
+    font-size: 130%;
+}
+
+a.Logo {
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+a.navigation {
+    color: #15120e66;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 div.middle-container {
@@ -35,6 +48,22 @@ div.scroll-and-text-section{
 
 div.text-section {
     text-align: left;
+}
+a.how-it-works-link {
+    text-decoration: none;
+    color: #ff2b75;
+}
+
+button.selection-button {
+    width: 200px;
+    height: 50px;
+    font-size: 100%;
+    transition-duration: 0.4s;
+}
+
+button.selection-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 div.slide-bar-section {

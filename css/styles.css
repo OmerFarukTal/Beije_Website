@@ -41,6 +41,16 @@ div.slide-bar-section {
     text-align: left;
 }
 
+div.beije-ped-slides-section {
+    display: block;
+}
+div.beije-günlük-ped-slides-section {
+    display: none;
+}
+div.beije-tampon-slides-section {
+    display: none;
+}
+
 div.photo-and-total-cost-section {
     float:right;
     text-align: left;

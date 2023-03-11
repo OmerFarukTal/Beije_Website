@@ -31,20 +31,51 @@
                         <div class="buttons-section">
                             
                             <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth Mui-selected mui-style-134ql1v" 
-                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0">
+                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0" onclick="show1()">
                                 beije Ped
                                 <span class="MuiTouchRipple-root mui-style-w0pj6f"></span>
                             </button>
+                            <script>
+                                function show1() {
+                                    var x = document.getElementsByClassName("beije-ped-slides-section");
+                                    var y = document.getElementsByClassName("beije-günlük-ped-slides-section");
+                                    var z = document.getElementsByClassName("beije-tampon-slides-section");
+                                    x[0].style.display = 'block';
+                                    y[0].style.display = 'none';
+                                    z[0].style.display = 'none';
+                                } 
+                            </script>
                             <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth Mui-selected mui-style-134ql1v" 
-                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0">
+                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0" onclick="show2()">
                                 beije Günlük Ped
                                 <span class="MuiTouchRipple-root mui-style-w0pj6f"></span>
                             </button>
+                            <script>
+                                function show2() {
+                                    var x = document.getElementsByClassName("beije-ped-slides-section");
+                                    var y = document.getElementsByClassName("beije-günlük-ped-slides-section");
+                                    var z = document.getElementsByClassName("beije-tampon-slides-section");
+                                    x[0].style.display="none";
+                                    y[0].style.display="block";
+                                    z[0].style.display="none";
+                                } 
+                            </script>
                             <button class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary MuiTab-fullWidth Mui-selected mui-style-134ql1v" 
-                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0">
+                                tabindex="0" type="button" role="tab" aria-selected="true" id="beije-tab-0" aria-controls="beije-tabpanel-0" onclick="show3()">
                                 beije Tampon
                                 <span class="MuiTouchRipple-root mui-style-w0pj6f"></span>
                             </button>
+                            <script>
+                                function show3() {
+                                    var x = document.getElementsByClassName("beije-ped-slides-section");
+                                    var y = document.getElementsByClassName("beije-günlük-ped-slides-section");
+                                    var z = document.getElementsByClassName("beije-tampon-slides-section");
+                                    x[0].style.display="none";
+                                    y[0].style.display="none";
+                                    z[0].style.display="block";
+                                } 
+                            </script>
+                            
                         </div>
                         <div class="slide-bar-section">
                             <div class="beije-ped-slides-section">
@@ -92,7 +123,7 @@
                                     </datalist>
                                 </div>
                             </div>
-                            <div class="beije-günlük-ped-slides-section" hidden>
+                            <div class="beije-günlük-ped-slides-section">
                                 <p>Günlük Ped</p>
                                 <div class="slider">
                                     <input type="range" min="0" max="100" value="0" id="fader" 
@@ -131,7 +162,7 @@
                                     </datalist>
                                 </div>
                             </div>
-                            <div class="beije-tampon-slides-section" hidden>
+                            <div class="beije-tampon-slides-section">
                                 <p>Mini Tampon</p>
                                 <div class="slider">
                                     <input type="range" min="0" max="60" value="00" id="fader" 

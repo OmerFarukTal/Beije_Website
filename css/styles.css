@@ -1,6 +1,57 @@
 
+body {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+header {
+    text-align: center;
+    padding: 25px 30% 100px 30%;
+    background-color: #FAEDCD;
+}
+
+div.middle-container {
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 720px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+div.scroll-and-text-section{
+    
+    padding-top: 100px;
+    padding-left: 15%;
+    float: left;
+}
+
+div.photo-and-total-cost-section {
+    float:right;
+    text-align: left;
+    padding-top: 100px;
+    padding-right: 30%;
+}
 
 
+footer {
+    background-color: #2C3333;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+}
+
+hr {
+    width: 60%;
+    color: White;
+    border: none;
+}
+
+div.bottom-container {
+    padding-bottom: 100px;
+}
 
 
 
